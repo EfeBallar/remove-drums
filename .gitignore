@@ -1,0 +1,43 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+*.egg
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+web/frontend/node_modules/
+web/frontend/dist/
+web/frontend/.vite/
+
+# ── Audio files (personal music library — add your own after cloning) ─────────
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.opus
+*.wma
+
+# ── Temp folders created during processing ────────────────────────────────────
+_tmp/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Editors / IDEs ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+.env
+.cache/
